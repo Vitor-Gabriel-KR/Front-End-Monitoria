@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
+    <ion-title class = "ion-text-center">
+      ClassCalendar
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,8 +13,15 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-grid>
+    <div>
+      <h1 class = "ion-text-center">Login</h1>
+    </div>
+    <div>
+      <ion-textarea>CPF</ion-textarea>
+      <ion-textarea>SENHA</ion-textarea>
+      <a href="">Esqueceu a senha</a>
+      <ion-button> Entrar </ion-button>
+    </div>
+  </ion-grid>
 </ion-content>
