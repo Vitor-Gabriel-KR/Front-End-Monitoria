@@ -10,8 +10,13 @@ export const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full',
   },  {
+<<<<<<< HEAD
     path: 'perfil',
     loadComponent: () => import('./perfil/perfil.page').then( m => m.PerfilPage)
+=======
+    path: 'placeholder',
+    loadComponent: () => import('./placeholder/placeholder.page').then( m => m.PlaceholderPage)
+>>>>>>> placeholder-branch
   },
 
 ];
