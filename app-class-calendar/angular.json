@@ -139,11 +139,7 @@
     "schematicCollections": [
       "@ionic/angular-toolkit"
     ],
-<<<<<<< HEAD
     "analytics": false
-=======
-    "analytics": "c4e5215c-7cb6-4d96-acbd-6e793fd14b57"
->>>>>>> placeholder-branch
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
