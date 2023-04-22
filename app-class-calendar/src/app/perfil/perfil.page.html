@@ -1,0 +1,58 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="ion-text-center">PERFIL</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-grid *ngFor="let dado of dados;">
+
+  <ion-col >
+    <ion-item>
+        Nome: {{dado.nome}}
+    </ion-item>
+  </ion-col>
+  
+  <ion-col >
+    <ion-item>
+        CPF: {{dado.cpf}}
+    </ion-item>
+  </ion-col>
+
+  <ion-col >
+    <ion-item>
+        Turma: {{dado.turma}}
+    </ion-item>
+  </ion-col>
+
+  <ion-col >
+    <ion-item>
+        Telefone: {{dado.telefone}}
+    </ion-item>
+  </ion-col>
+
+  <ion-col >
+    <ion-item>
+        Endereço: {{dado.endereco}}
+    </ion-item>
+  </ion-col>
+
+  <ion-col >
+    <ion-item>
+        Senha: {{dado.senha}}
+    </ion-item>
+  </ion-col>
+</ion-grid>
+
+  <ion-row>
+    <ion-col class="butao">
+      <ion-button style="--background: #888888" shape="round" size="large">
+        <ion-icon name="create-outline"></ion-icon>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-content>
+
+<ion-footer [translucent]="true">
+  <ion-toolbar></ion-toolbar>
+</ion-footer>
